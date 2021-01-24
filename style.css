@@ -74,6 +74,24 @@ h1 {
     height: 40px;
 }
 
+.jisc {
+    color: #e85e13;
+}
+
+h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h3 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.volvelle {
+    width: 80%;
+}
+
 /* This code is for the overlay and the menu buttons */
 
 .overlay {
