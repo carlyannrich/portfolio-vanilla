@@ -172,7 +172,25 @@ h3 {
 
 /* end footer */
 
-/* CSS animations */
+/* This code is for the image gallery */
+
+div.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+div.imagegallery {
+    width: 100%;
+    transition: transform .2s;
+}
+
+div.imagegallery img {
+    width: 80%;
+}
+
+/* end of code for image gallery */
 
 /* These are media queries for tablet and desktop display*/
 
@@ -213,6 +231,9 @@ h3 {
     }
     .social-footer {
         margin-top: -5%;
+    }
+    div.container {
+        width: 780px;
     }
 }
 
@@ -255,5 +276,14 @@ h3 {
     }
     .social-footer {
         margin-top: -10%;
+    }
+    div.container {
+        width: 1040px;
+    }
+    div.imagegallery:hover {
+        transform: scale(1.2);
+    }
+    div.imagegallery img {
+        width: 60%;
     }
 }
