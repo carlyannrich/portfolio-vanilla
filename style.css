@@ -98,6 +98,11 @@ h3 {
     width: 80%;
 }
 
+.twitterbox {
+    width: 60%;
+    margin-left: 20%;
+}
+
 /* This code is for the overlay and the menu buttons */
 
 .overlay {
@@ -174,6 +179,11 @@ h3 {
 .social-footer .social-footer-icons .fa:hover {
     color: #4a4a4a;
     transition: color 0.3s ease-in;
+}
+
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 /* end footer */
